@@ -1,0 +1,143 @@
+#main{
+    .container{
+        .row{
+            .col-md-12{
+                    .thumbnail{
+                        transition: all 1.2s linear;
+                        .hand{
+                            position: absolute;
+                            right: -5%;
+                            top: 0%;
+                            width: 7.3%;
+                            opacity: 0.8;
+                            transition: all 1.2s linear;
+                            img{
+                                width: 100%;
+                                transition: all 1.2s linear;
+                            }
+                        }
+                        .screen{
+                            margin-bottom: 30%;
+                            position: absolute;
+                            right: 0%;
+                            top: 0%;
+                            width: 0%;
+                            height: 500px;
+                            transition: all 1.2s linear;
+                            background-color: white;
+                        }
+                    background-image: linear-gradient(to left, rgba(28, 87, 150, 0.493), rgba(109, 182, 214, 0.514));
+                    // padding-left: 50%;
+                    // overflow: hidden;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                    border: 2px solid #6DB6D6;
+                    margin-top: 10%;
+                    cursor: pointer;
+                    .main{
+                        transition: all 1.2s linear;
+                        img{
+                            width: 40%;
+                            height: 500px;
+                            transition: all 1.2s linear;
+                        }
+                    }
+                    .secondImg, .thirdImg{
+                        position: absolute;
+                        top: 0;
+                        left: 40%;
+                        transition: all 1.2s linear;
+                        img{
+                            width: 40%;
+                            height: 500px;
+                            transition: all 1.2s linear;
+                        }
+                    }
+                    .thirdImg{
+                        left: 56%;
+                    }
+                    .fourthImg, .fifthImg{
+                        width: 14%;
+                        position: absolute;
+                        top: 0;
+                        left: 72%;
+                        transition: all 1.2s linear;
+                        img{
+                            width: 100%;
+                            height: 500px;
+                            transition: all 1.2s linear;
+                        }
+                    }
+                    .fifthImg{
+                        width: 14%;
+                        left: 86%;
+                        top: 0%;
+                        img{
+                            // width: 100%;
+                        }
+                    }
+                    &:hover .fifthImg{
+                        left: 60.7%;
+                        top: -10.4%;
+                        img{
+                            // width: 35%;
+                            transform: skewY(35deg);
+                            // opacity: 0.8;
+                        }
+                    } 
+                    &:hover .fourthImg{
+                        width: 14%;
+                        left: 46.71%;
+                        top: -10.5%;
+                        img{
+                            // width: 35%;
+                            transform: skewY(-34deg);
+                            opacity: 0.8;
+                        }
+                    }
+                    &:hover .thirdImg{
+                        left: 32.5%;
+                        top: -10.5%;
+                        img{
+                            width: 35%;
+                            transform: skewY(34deg);
+                            // opacity: 0.8;
+                        }
+                    }
+                    &:hover .secondImg{
+                        left: 18.2%;
+                        top: -10.5%;
+                        img{
+                            width: 35%;
+                            transform: skewY(-34deg);
+                            opacity: 0.8;
+                        }
+                    }
+                    &:hover .main{
+                        left: 18.2%;
+                        top: -10.5%;
+                        img{
+                            width: 18.4%;
+                            // opacity: 0.8;
+                        }
+                    }
+                    &:hover .hand{
+                        right: 20.28%;
+                        top: 1%;
+                        // z-index: 10;
+                        img{
+                            transform: skewY(10deg);
+                        }
+                    }
+                    &:hover .screen{
+                        // z-index: 10;
+                        // right: 0%;
+                        width: 25.3%
+                    }
+                }
+            }
+        }
+    }
+}
